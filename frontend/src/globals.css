@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message-bubble {
+  unicode-bidi: plaintext;
+  line-height: 1.6;
+}
+
+.message-bubble[dir="rtl"] {
+  text-align: right;
+}
+
+.message-bubble[dir="ltr"] {
+  text-align: left;
+}
+
